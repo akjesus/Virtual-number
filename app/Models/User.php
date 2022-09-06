@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use App\Models\Roles;
+use App\Models\Numbers;
 
 class User extends Authenticatable
 {
@@ -61,6 +62,10 @@ class User extends Authenticatable
     public function role()
     {
         return $this->belongsTo(Roles::class);
+    }
+    public function number()
+    {
+        return $this->belongsTo(Numbers::class );
     }
 }
 

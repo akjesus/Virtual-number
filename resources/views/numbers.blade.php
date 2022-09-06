@@ -155,7 +155,7 @@
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Operator</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Price</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Payment Method</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Completion</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Owner</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Action</th>
                       <th></th>
                     </tr>
@@ -193,14 +193,15 @@
                         <span class="text-xs font-weight-bold">{{$number->payment_method}}</span>
                       </td>
                       <td class="align-middle text-center">
-                        <div class="d-flex align-items-center justify-content-center">
+                      <span class="text-xs font-weight-bold">{{$number->user->name}}</span>
+                        <!-- <div class="d-flex align-items-center justify-content-center">
                           <span class="me-2 text-xs font-weight-bold">100%</span>
                           <div>
                           <div class="progress">
                               <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                       </td>
                       <td class="align-middle">
                       {!! Form::open(['route' => ['numbers.destroy', $number->id], 'method' => 'delete']) !!}

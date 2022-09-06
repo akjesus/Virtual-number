@@ -36,6 +36,7 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('profile');
 
 
+	Route::resource('payments', PaymentsController::class);
 	Route::resource('users', InfoUserController::class);
 	Route::resource('roles', RolesController::class);
 	Route::resource('numbers', 'App\Http\Controllers\NumbersController');
