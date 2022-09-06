@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-12">
          
-          @if(Auth::user()->role_id ==1)
+          @if(Auth::user()->role_id == 1)
             <div class="card mb-4">
               <div class="card-header pb-0">
                 <h6>Numbers Table</h6>          
@@ -15,7 +15,7 @@
           @endif
               <div class="card-body px-0 pt-0 pb-2">
               <div class="card-body pt-4 p-3">
-                @if(Auth::user()->id === 1)
+                @if(Auth::user()->id == 1)
                   <form action="/numbers" method="POST" role="form text-left">
                       @csrf
                       @if($errors->any())

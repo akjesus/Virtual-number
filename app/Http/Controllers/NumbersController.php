@@ -32,7 +32,7 @@ class NumbersController extends Controller
      */
     public function index(Request $request)
     {   
-        if (Auth::user()->id === 1)
+        if (Auth::user()->role_id == 1)
         {   $numbers = Numbers::all();
             $countries = Countries::all();
             $operators = Operators::all();

@@ -51,7 +51,7 @@
             <span class="nav-link-text ms-1">User Profile</span>
         </a>
       </li>
-      @if(Auth::user()->role_id ==1)
+      @if(Auth::user()->role_id == 1)
       <li class="nav-item pb-2">
         <a class="nav-link {{ (Request::is('users') ? 'active' : '') }}" href="{{ url('users') }}">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -78,7 +78,7 @@
               </g>
             </svg>
           </div>
-          @if(Auth::user()->role_id ==1)
+          @if(Auth::user()->role_id == 1)
           <span class="nav-link-text ms-1">Numbers</span>
           @else<span class="nav-link-text ms-1">My Numbers</span>
           @endif
