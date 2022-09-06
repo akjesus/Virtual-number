@@ -1,0 +1,1 @@
+RewriteRule ^index\.php$ /public/ [L,R=301]

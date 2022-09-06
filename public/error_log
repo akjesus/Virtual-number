@@ -1,0 +1,183 @@
+[02-Sep-2022 11:40:55 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:40:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:41:21 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:41:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:41:26 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:41:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:26 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:47 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:50 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:52 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:53 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:54 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:43:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:44:02 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:44:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:44:32 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:44:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:51:29 UTC] PHP Warning:  require(/home/simtech/public_html/../../Dashboard/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:51:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../../Dashboard/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:52:10 UTC] PHP Warning:  require(/home/simtech/public_html/Dashboard/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:52:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/Dashboard/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:52:45 UTC] PHP Warning:  require(/home/simtech/public_html../Dashboard/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:52:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../Dashboard/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:59:18 UTC] PHP Warning:  require(/home/simtech/public_html../Dashboard/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:59:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../Dashboard/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:59:46 UTC] PHP Warning:  require(/home/simtech/public_html../Dashboard/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:59:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../Dashboard/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:59:53 UTC] PHP Warning:  require(/home/simtech/public_html../Dashboard/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 11:59:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../Dashboard/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:09:45 UTC] PHP Warning:  require(/home/simtech/public_html../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:09:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:12:11 UTC] PHP Warning:  require(/home/simtech/public_html../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:12:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:12:38 UTC] PHP Warning:  require(/home/simtech/public_html../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:12:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:13:00 UTC] PHP Warning:  require(/home/simtech/public_html../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:13:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:13:11 UTC] PHP Warning:  require(/home/simtech/public_html././vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:13:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html././vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:13:39 UTC] PHP Warning:  require(/home/simtech/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:13:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:16:56 UTC] PHP Warning:  require(/home/simtech/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:16:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:16:58 UTC] PHP Warning:  require(/home/simtech/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:16:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:17:10 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:17:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:24:30 UTC] PHP Warning:  require(/home/simtech/public_html../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:24:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:29:12 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:29:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:30:33 UTC] PHP Warning:  require(/home/simtech/public_html/././vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:30:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/././vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:35:13 UTC] PHP Warning:  require(/home/simtech/public_html../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:35:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:35:48 UTC] PHP Warning:  require(/home/simtech/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:35:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:37:58 UTC] PHP Warning:  require(/home/simtech/public_html./../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:37:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html./../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:47:58 UTC] PHP Warning:  require(/home/simtech/public_html./../vendor/autoload.php): Failed to open stream: No such file or directory in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:47:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html./../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/index.php on line 34
+[02-Sep-2022 12:53:44 UTC] PHP Warning:  require(/home/simtech/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/simtech/public_html/vendor/composer/autoload_real.php on line 78
+[02-Sep-2022 12:53:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home/simtech/public_html/vendor/composer/autoload_real.php(61): composerRequire018f5010609dd0c11059de223762b7ba()
+#1 /home/simtech/public_html/vendor/autoload.php(7): ComposerAutoloaderInit018f5010609dd0c11059de223762b7ba::getLoader()
+#2 /home/simtech/public_html/public/index.php(34): require('/home/simtech/p...')
+#3 {main}
+  thrown in /home/simtech/public_html/vendor/composer/autoload_real.php on line 78
+[02-Sep-2022 12:56:02 UTC] PHP Warning:  require_once(/home/simtech/public_html/public./../../bootstrap/app.php): Failed to open stream: No such file or directory in /home/simtech/public_html/public/index.php on line 47
+[02-Sep-2022 12:56:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/public./../../bootstrap/app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/public/index.php on line 47
+[02-Sep-2022 12:56:19 UTC] PHP Warning:  require_once(/home/simtech/public_html/public./../../bootstrap/app.php): Failed to open stream: No such file or directory in /home/simtech/public_html/public/index.php on line 47
+[02-Sep-2022 12:56:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/simtech/public_html/public./../../bootstrap/app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/simtech/public_html/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/simtech/public_html/public/index.php on line 47
