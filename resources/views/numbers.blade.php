@@ -155,8 +155,10 @@
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Operator</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Price</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Payment Method</th>
+                      @if(Auth::user()->role_id == 1)
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Owner</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Action</th>
+                      @endif
                       <th></th>
                     </tr>
                   </thead>
@@ -192,6 +194,7 @@
                       <td>
                         <span class="text-xs font-weight-bold">{{$number->payment_method}}</span>
                       </td>
+                      @if(Auth::user()->role_id == 1)
                       <td class="align-middle text-center">
                       <span class="text-xs font-weight-bold">{{$number->user->name}}</span>
                         <!-- <div class="d-flex align-items-center justify-content-center">
@@ -203,6 +206,7 @@
                           </div>
                         </div> -->
                       </td>
+                      
                       <td class="align-middle">
                       {!! Form::open(['route' => ['numbers.destroy', $number->id], 'method' => 'delete']) !!}
                         <div class='btn-group'>
@@ -214,6 +218,7 @@
                         </div>
                       {!! Form::close() !!}
                       </td>
+                      @endif
                     </tr>
                     @endforeach
                   </tbody>

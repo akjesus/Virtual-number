@@ -1,6 +1,7 @@
 @extends('layouts.user_type.auth')
 
 @section('content')
+<main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
 
                   <form action="{{url('payments')}}" method="POST" enctype="multipart/form-data"  role="form text-left">
                       @csrf
@@ -91,7 +92,6 @@
                             </div>
                         </div>
                   </form>
-      <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
         <div class="container-fluid py-4">
           <div class="row">
             <div class="col-12">
@@ -142,15 +142,17 @@
                             <td class="align-middle text-center text-sm">
                               @if($payment->status == 'Initiated')
                               <span class="badge badge-sm bg-gradient-info">{{$payment->status}}</span>
-                              @else 
+                              @elseif ($payment->status == 'Approved' ) 
                               <span class="badge badge-sm bg-gradient-success">{{$payment->status}}</span>
+                              @else
+                              <span class="badge badge-sm bg-gradient-primary">{{$payment->status}}</span>
                               @endif
                             </td>
                             <td class="align-middle text-center">
                               <span class="text-secondary text-xs font-weight-bold">{{$payment->created_at->diffForHumans()}}</span>
                             </td>
                             <td class="align-middle text-center">
-                              <img width = "60px" src = "{{$payment->image_url}}" ></img>
+                            <a href = "{{$payment->image_url}}" target = "_blank" title = "View Image">  <img width = "60px" src = "{{$payment->image_url}}" ></img> </a>
                             </td>
                             @if(Auth::user()->role_id == 1)
                               <td class="align-middle">
@@ -162,7 +164,12 @@
                                         {!! Form::open(['route' => ['payments.update', $payment->id], 'method' => 'patch']) !!}
                                           {!! Form::button('Approve', [
                                               'type' => 'submit',
-                                              'class' => 'btn bg-gradient-dark btn-sm mt-4 sm-4',
+                                              'class' => 'btn bg-gradient-success btn-sm mt-4 sm-4',
+                                              'onclick' => "return confirm('Are you sure you want to approve this payment?')"
+                                              ]) !!}
+                                              {!! Form::button('Cancel', [
+                                              'type' => 'submit',
+                                              'class' => 'btn bg-gradient-primary btn-sm mt-4 sm-4',
                                               'onclick' => "return confirm('Are you sure you want to approve this payment?')"
                                               ]) !!}
                                         {!! Form::close() !!}
