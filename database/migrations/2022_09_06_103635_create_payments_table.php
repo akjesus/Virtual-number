@@ -18,8 +18,9 @@ return new class extends Migration
             $table->integer('user_id');
             $table->integer('number_id');
             $table->string('image');
-            $table->string('status')->default('initiated');
+            $table->string('status')->default('Initiated');
             $table->string('payment_method')->nullable();
+            $table->string('transaction_number')->nullable();
             $table->float('amount', 8, 2);
             $table->softDeletes();
             $table->timestamps();

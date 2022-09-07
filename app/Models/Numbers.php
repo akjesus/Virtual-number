@@ -9,6 +9,7 @@ use App\Models\Transactions;
 use App\Models\Numbers;
 use App\Models\Countries;
 
+
 /**
  * Class Numbers
  * @package App\Models
@@ -81,9 +82,9 @@ class Numbers extends Model
     {
         return $this->belongsTo(Operators::class );
     }
-    public function transaction()
+    public function payment()
     {
-        return $this->belongsTo(Transactions::class );
+        return $this->belongsTo(Payments::class );
     }
     public function country()
     {

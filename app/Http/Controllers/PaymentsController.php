@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Payments;
+use App\Models\Numbers;
 use Illuminate\Http\Request;
 
 class PaymentsController extends Controller
@@ -13,8 +14,10 @@ class PaymentsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        //
+    {   
+        $numbers = Numbers::all();
+        $payments = Payments::all();
+        return view('payments', compact('payments', 'numbers'));
     }
 
     /**
@@ -67,8 +70,12 @@ class PaymentsController extends Controller
      * @param  \App\Models\Payments  $payments
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Payments $payments)
-    {
+    public function update($id)
+    {   $request = Payments::whereId($id)->update([
+        'status' => 'Approved']);
+        $payments = Payments::all();
+        $message = 'Payment approved Successfully!';
+        return view('payments', compact('payments', 'message'));
         //
     }
 

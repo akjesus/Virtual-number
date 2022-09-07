@@ -16,7 +16,7 @@
               <div class="card-body px-0 pt-0 pb-2">
               <div class="card-body pt-4 p-3">
                 @if(Auth::user()->id == 1)
-                  <form action="/numbers" method="POST" role="form text-left">
+                  <form action="{{url('numbers')}}" method="POST" role="form text-left">
                       @csrf
                       @if($errors->any())
                           <div class="mt-3  alert alert-primary alert-dismissible fade show" role="alert">
