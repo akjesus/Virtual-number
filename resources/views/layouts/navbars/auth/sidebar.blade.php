@@ -101,7 +101,11 @@
               </g>
             </svg>
           </div>
+          @if(Auth::user()->role_id == 1)
           <span class="nav-link-text ms-1">Payments</span>
+          @else
+          <span class="nav-link-text ms-1">My Payments</span>
+          @endif
         </a>
       </li>
     </ul>

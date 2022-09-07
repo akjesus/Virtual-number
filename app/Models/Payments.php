@@ -20,11 +20,11 @@ class Payments extends Model
     protected $dates = ['deleted_at'];
 
 
-
     public $fillable = [
-        'number_id',
+        'number',
         'user_id',
         'image',
+        'image_url',
         'status',
         'transaction_number',
         'amount',
@@ -38,9 +38,10 @@ class Payments extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'number_id' => 'string',
+        'number' => 'string',
         'user_id' => 'string',
         'image' => 'string',
+        'image_url' => 'string',
         'status' => 'string',
         'payment_method' => 'string',
         'transaction_number' => 'string',
@@ -54,8 +55,9 @@ class Payments extends Model
      */
     public static $rules = [
         'user_id' => 'required|string|max:255',
-        'number_id' => 'required|string|max:255',
+        'number' => 'required|string|max:255',
         'image' => 'required|string|max:255',
+        'image_url' => 'required|string|max:255',
         'status' => 'required|string|max:255',
         'payment_method'    => '|string|max:255',
         'amount' => 'float',
