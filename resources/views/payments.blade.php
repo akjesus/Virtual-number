@@ -28,7 +28,7 @@
                                   <div class="form-group">
                                     <label for="number" class="form-control-label">Enter number being paid for</label>
                                       <div class="@error('number_id')border border-danger rounded-3 @enderror">
-                                          <input class="form-control" type="tel" placeholder="40770888444" id="number" name="number">
+                                          <input class="form-control" type="tel" placeholder="40770888444" id="number" name="number" required>
                                             @error('number')
                                                 <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                             @enderror
@@ -39,7 +39,7 @@
                                   <div class="form-group">
                                     <label for="transaction_number" class="form-control-label"> Reference or Transction ID of Transaction</label>
                                       <div class="@error('transaction_number')border border-danger rounded-3 @enderror">
-                                          <input class="form-control" type="text" placeholder="AE123-SXUI-1234" id="transaction_number" name="transaction_number">
+                                          <input class="form-control" type="text" placeholder="AE123-SXUI-1234" id="transaction_number" name="transaction_number" required>
                                             @error('transaction_number')
                                                 <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                             @enderror
@@ -50,7 +50,7 @@
                                   <div class="form-group">
                                     <label for="amount" class="form-control-label">Transaction Amount</label>
                                       <div class="@error('amount')border border-danger rounded-3 @enderror">
-                                          <input class="form-control" type="number" placeholder="$1234:89" id="amount" name="amount">
+                                          <input class="form-control" type="number" placeholder="$1234:89" id="amount" name="amount" required>
                                             @error('amount')
                                                 <p class="text-danger text-xs mt-2">{{ $message }}</p>
                                             @enderror
@@ -61,10 +61,9 @@
                                 <div class="form-group">
                                     <label for="payment_method" class="form-control-label">Payment Method</label>
                                     <div class="@error('payment_method')border border-danger rounded-3 @enderror">
-                                      <select class="form-control" name="payment_method">
-                                          <option value="payment_method" disabled selected>Select Payment Method</option>
+                                      <select  name="payment_method" required class="form-control">
                                           <option value = "Bank">Bank </option>
-                                          <option value = "Transfer">Mobile Transfer</option>
+                                          <option value = "Mobile Transfer">Mobile Transfer</option>
                                           <option value = "Card">Card </option>
                                           <option value = "BTC">BTC </option>           
                                       </select>
@@ -165,11 +164,6 @@
                                           {!! Form::button('Approve', [
                                               'type' => 'submit',
                                               'class' => 'btn bg-gradient-success btn-sm mt-4 sm-4',
-                                              'onclick' => "return confirm('Are you sure you want to approve this payment?')"
-                                              ]) !!}
-                                              {!! Form::button('Cancel', [
-                                              'type' => 'submit',
-                                              'class' => 'btn bg-gradient-primary btn-sm mt-4 sm-4',
                                               'onclick' => "return confirm('Are you sure you want to approve this payment?')"
                                               ]) !!}
                                         {!! Form::close() !!}

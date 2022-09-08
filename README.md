@@ -226,7 +226,7 @@ The `App\Http\Controllers\InfoUserController` handles the user's profile informa
         User::where('id',Auth::user()->id)
         ->update([
             'name'    => $attributes['name'],
-            'email' => $attribute['email'],
+            'email' => $attributes['email'],
             'phone'     => $attributes['phone'],
             'location' => $attributes['location'],
             'about_me'    => $attributes["about_me"],
